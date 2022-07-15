@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-form-item:not(:last-child) {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background: white;
+  align-items: center;
+  font-weight: 620;
+}
+
+.ant-form-item-control {
+  width: 100%;
+}
+
+.ant-select {
+  border: 1px solid black;
+}
+
+.ant-input {
+  border: 1px solid black;
+}
+
+.ant-checkbox-inner {
+  border-color: black !important;
+  border: 2px solid !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #4682b4 !important;
+  border-color: #4682b4 !important;
+}
